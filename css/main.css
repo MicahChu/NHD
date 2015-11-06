@@ -1,0 +1,62 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   ::-webkit-scrollbar {
+       background-color: #111111;
+       width: 12px;
+       height: 12px;
+   }
+
+   ::-webkit-scrollbar-thumb {
+       background-color: #666;
+       border: 0px solid #111111;
+   }
+
+   ::-webkit-scrollbar-thumb:hover {
+       background-color: #999;
+   }
+
+   ::-webkit-scrollbar-thumb:active {
+       background-color: #ccc;
+   }
+
+   ::-webkit-scrollbar-corner {
+       background-color: transparent;
+       color: #555555;
+   }
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+#header {
+  width: 100% !important;
+}
+
+.column {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.row {
+  max-width: 100%;
+}
+
+.link-image {
+  width: 250px;
+  height: 250px;
+  border: 50px solid #EB5E28;
+  background-color: #d9534f;
+  margin: auto;
+}
+
+.link-image:hover {
+  border: 50px solid #d9534f;
+  background-color: #EB5E28;
+}
+
+* {
+  transition: all 150ms linear;
+}
