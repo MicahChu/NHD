@@ -5,26 +5,26 @@
    ========================================================================== */
    ::-webkit-scrollbar {
        background-color: #111111;
-       width: 12px;
-       height: 12px;
+       width: 10px;
+       height: 10px;
    }
 
    ::-webkit-scrollbar-thumb {
        background-color: #666;
-       border: 0px solid #111111;
    }
 
    ::-webkit-scrollbar-thumb:hover {
        background-color: #999;
+       border-radius: 3px;
    }
 
    ::-webkit-scrollbar-thumb:active {
        background-color: #ccc;
+       border-radius: 5px;
    }
 
    ::-webkit-scrollbar-corner {
-       background-color: transparent;
-       color: #555555;
+       color: #666;
    }
 
 .jumbotron {
@@ -59,4 +59,67 @@
 
 * {
   transition: all 150ms linear;
+}
+
+.limb:hover {
+  width: 100px;
+}
+
+.limb {
+  margin-top: 5px;
+}
+
+.fa {
+  color: #f5f5f5;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.fac {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+}
+
+.limbt {
+  font-family: 'bitter';
+  color: #bb343b;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 15px;
+  text-align: center;
+}
+
+::selection {
+  background: #555;
+}
+::-moz-selection {
+  background: #555;
+}
+
+.oversection {
+  background-color: #444;
+  margin-top: 50px;
+}
+
+.navbar {
+  opacity: 0.9;
+  border-radius: 0px;
+}
+
+.overt {
+  font-family: 'bitter';
+  color: #f5f5f5;
+  font-size: 38px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.overp {
+  font: normal 14px Montserrat;
+  color: #f4f4f4;
+  margin-left: 100px;
+  margin-right: 100px;
 }

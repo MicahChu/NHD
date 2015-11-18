@@ -16,11 +16,10 @@
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="Font-Awesome/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
         <meta name="theme-color" content="#666">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -30,12 +29,14 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="jumbotron">
+        <section id="top">
+          <div class="jumbotron">
           <div class="container">
             <h1>National History Day!</h1>
           </div>
         </div>
-  <div id="sticky-wrapper">
+      </section>
+  <div id="sticky-wrapper" style="position: relative; z-index: 1000;">
   <nav id="header" class="navbar navbar-default" style>
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -46,40 +47,77 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">National History Day</a>
+      <a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }" class="navbar-brand" href="#top">National History Day</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Link</a></li>
+        <li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuint&quot; }" href="/exploration">Exploration</a></li>
+        <li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuint&quot; }" href="/encounter">Encounter</a></li>
+        <li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuint&quot; }" href="/exchange">Exchange</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuint&quot; }" href="#top">Links</a></li>
+        <li><a data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuint&quot; }" href="#over">Overview</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 </div>
-
+<section id="links">
 <div class="row">
   <div class="col-md-4 column">
     <div class="link-image">
-
+      <div class="fac">
+      <i class="fa fa-3x fa-map"></i>
+    </div>
+    <p class="limbt">Exploration</p>
+  <a class="btn btn-primary limb" href="#">Go</a>
     </div>
   </div>
 <div class="col-md-4 column">
   <div class="link-image">
-
+    <div class="fac">
+    <i class="fa fa-3x fa-hand-paper-o"></i>
+  </div>
+  <p class="limbt">Encounter</p>
+<a class="btn btn-primary limb" href="#">Go</a>
   </div>
 </div>
 <div class="col-md-4 column">
   <div class="link-image">
-
+    <div class="fac">
+    <i class="fa fa-3x fa-money"></i>
+  </div>
+  <p class="limbt">Exchange</p>
+<a class="btn btn-primary limb" href="#">Go</a>
   </div>
 </div>
 </div>
+</section>
+<section id="over" class="oversection">
+<p class="overt">Overview</p>
+<p class="overp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac ex ut arcu ornare efficitur. Vestibulum et dignissim felis. Sed bibendum aliquam leo at ullamcorper. Vestibulum tincidunt turpis a lacus semper, vitae sollicitudin dolor hendrerit. Maecenas id efficitur ipsum, quis porttitor augue. Fusce sit amet magna ac metus sodales mollis. Fusce eget luctus erat. Praesent at sapien eget mauris ultricies consectetur a non nisl. Phasellus finibus commodo placerat.
 
+Maecenas sagittis at augue eget hendrerit. Nam cursus ante sed fringilla pellentesque. Vivamus auctor leo a lectus laoreet, et blandit nisl maximus. Ut ultrices est in congue posuere. Phasellus sed tempus nulla, quis euismod nunc. Vivamus ultrices nisi id erat tincidunt, id ultrices neque eleifend. Nunc malesuada sapien vitae erat finibus ultrices. Nunc id convallis tortor. Suspendisse nisi mauris, tempus in efficitur in, accumsan vitae nisl. In hac habitasse platea dictumst. Vivamus aliquet, tellus in aliquet pharetra, magna enim facilisis urna, sodales feugiat felis ligula a tellus. Suspendisse urna eros, ultrices a hendrerit sed, finibus et arcu. Nam vitae interdum urna. Nulla ultrices laoreet nulla, eu cursus neque egestas sed. Vestibulum feugiat a enim quis porttitor.
+
+Mauris tellus massa, posuere et risus et, condimentum blandit metus. Quisque ut sem viverra, vestibulum eros ac, cursus ligula. Aliquam mauris metus, elementum non sem et, venenatis volutpat purus. Nullam eros velit, placerat vitae tellus vitae, vestibulum rhoncus turpis. Sed sit amet turpis dignissim, porttitor elit ut, scelerisque dolor. Donec ac urna luctus, condimentum ante in, dapibus lacus. Nullam ultricies erat sit amet erat aliquam, a porttitor enim luctus. Etiam nisi tortor, consequat vitae dapibus nec, semper eu diam. Sed vestibulum lacinia justo non porttitor. Cras justo odio, mattis eget neque sodales, dignissim scelerisque augue. Sed in lacus facilisis, auctor ligula eu, facilisis nulla. Aenean nisl nisl, congue ac rutrum quis, eleifend id diam. Donec gravida turpis ante. Morbi vel rhoncus erat. Morbi aliquet purus purus, in cursus lacus viverra et.
+
+Vivamus a pharetra ipsum. Nullam sapien purus, placerat et nunc in, tristique tempor est. Vestibulum auctor iaculis est, non condimentum diam aliquam non. Curabitur volutpat porttitor tortor, ut lacinia diam hendrerit id. Suspendisse potenti. Proin dignissim neque nec diam laoreet convallis. Cras sed turpis id felis ultricies iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur semper iaculis orci. Aenean eget rhoncus nisl. Nulla facilisi. Pellentesque in ante vel ante consequat tempor. Nunc cursus lorem non nibh pellentesque egestas. Maecenas eu orci sollicitudin, tempor orci et, tristique lectus. Ut cursus ligula eget dolor rutrum, in accumsan quam aliquam.
+
+Curabitur pharetra arcu vel neque finibus eleifend. Nullam tristique tortor mauris, at iaculis magna facilisis eu. Praesent est ante, bibendum non nunc facilisis, euismod consequat nisi. Ut pulvinar luctus mi quis tempor. Quisque tempor lorem ut felis placerat, eget vulputate risus pellentesque. Nam tristique, ligula eget lobortis pharetra, felis nulla ullamcorper turpis, vel finibus ante lacus sit amet purus. Nulla facilisi. Duis commodo imperdiet lacus non gravida. Donec mauris leo, suscipit in condimentum efficitur, placerat a risus.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac ex ut arcu ornare efficitur. Vestibulum et dignissim felis. Sed bibendum aliquam leo at ullamcorper. Vestibulum tincidunt turpis a lacus semper, vitae sollicitudin dolor hendrerit. Maecenas id efficitur ipsum, quis porttitor augue. Fusce sit amet magna ac metus sodales mollis. Fusce eget luctus erat. Praesent at sapien eget mauris ultricies consectetur a non nisl. Phasellus finibus commodo placerat.
+
+Maecenas sagittis at augue eget hendrerit. Nam cursus ante sed fringilla pellentesque. Vivamus auctor leo a lectus laoreet, et blandit nisl maximus. Ut ultrices est in congue posuere. Phasellus sed tempus nulla, quis euismod nunc. Vivamus ultrices nisi id erat tincidunt, id ultrices neque eleifend. Nunc malesuada sapien vitae erat finibus ultrices. Nunc id convallis tortor. Suspendisse nisi mauris, tempus in efficitur in, accumsan vitae nisl. In hac habitasse platea dictumst. Vivamus aliquet, tellus in aliquet pharetra, magna enim facilisis urna, sodales feugiat felis ligula a tellus. Suspendisse urna eros, ultrices a hendrerit sed, finibus et arcu. Nam vitae interdum urna. Nulla ultrices laoreet nulla, eu cursus neque egestas sed. Vestibulum feugiat a enim quis porttitor.
+
+Mauris tellus massa, posuere et risus et, condimentum blandit metus. Quisque ut sem viverra, vestibulum eros ac, cursus ligula. Aliquam mauris metus, elementum non sem et, venenatis volutpat purus. Nullam eros velit, placerat vitae tellus vitae, vestibulum rhoncus turpis. Sed sit amet turpis dignissim, porttitor elit ut, scelerisque dolor. Donec ac urna luctus, condimentum ante in, dapibus lacus. Nullam ultricies erat sit amet erat aliquam, a porttitor enim luctus. Etiam nisi tortor, consequat vitae dapibus nec, semper eu diam. Sed vestibulum lacinia justo non porttitor. Cras justo odio, mattis eget neque sodales, dignissim scelerisque augue. Sed in lacus facilisis, auctor ligula eu, facilisis nulla. Aenean nisl nisl, congue ac rutrum quis, eleifend id diam. Donec gravida turpis ante. Morbi vel rhoncus erat. Morbi aliquet purus purus, in cursus lacus viverra et.
+
+Vivamus a pharetra ipsum. Nullam sapien purus, placerat et nunc in, tristique tempor est. Vestibulum auctor iaculis est, non condimentum diam aliquam non. Curabitur volutpat porttitor tortor, ut lacinia diam hendrerit id. Suspendisse potenti. Proin dignissim neque nec diam laoreet convallis. Cras sed turpis id felis ultricies iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur semper iaculis orci. Aenean eget rhoncus nisl. Nulla facilisi. Pellentesque in ante vel ante consequat tempor. Nunc cursus lorem non nibh pellentesque egestas. Maecenas eu orci sollicitudin, tempor orci et, tristique lectus. Ut cursus ligula eget dolor rutrum, in accumsan quam aliquam.
+
+Curabitur pharetra arcu vel neque finibus eleifend. Nullam tristique tortor mauris, at iaculis magna facilisis eu. Praesent est ante, bibendum non nunc facilisis, euismod consequat nisi. Ut pulvinar luctus mi quis tempor. Quisque tempor lorem ut felis placerat, eget vulputate risus pellentesque. Nam tristique, ligula eget lobortis pharetra, felis nulla ullamcorper turpis, vel finibus ante lacus sit amet purus. Nulla facilisi. Duis commodo imperdiet lacus non gravida. Donec mauris leo, suscipit in condimentum efficitur, placerat a risus.</p>
+</section>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
