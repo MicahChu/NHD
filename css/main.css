@@ -45,16 +45,20 @@
 }
 
 .link-image {
-  width: 250px;
-  height: 250px;
-  border: 50px solid #EB5E28;
+  width: 200px;
+  height: 200px;
+  border: 25px solid #EB5E28;
   background-color: #d9534f;
   margin: auto;
+  margin-bottom: 75px;
 }
 
 .link-image:hover {
   border: 50px solid #d9534f;
   background-color: #EB5E28;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 25px;
 }
 
 * {
@@ -101,7 +105,6 @@
 
 .oversection {
   background-color: #444;
-  margin-top: 50px;
 }
 
 .navbar {
