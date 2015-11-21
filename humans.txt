@@ -3,11 +3,16 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    MicahChu
 
 # THANKS
 
-    <name>
+    Creative-Tim
+    Twitter Bootstrap
+    Font-Awesome
+    Google fonts
+    SmoothScroll
+    StickyJS
 
 # TECHNOLOGY COLOPHON
 

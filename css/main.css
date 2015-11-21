@@ -128,3 +128,36 @@
   margin-left: 100px;
   margin-right: 100px;
 }
+
+@media screen and (max-width:1000px) {
+  .overp {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .overp {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+.navbar-subpages {
+  height: 70px;
+  position: fixed;
+}
+
+.nhs, .ncs, .nvs {
+  height: 46.666666667px;
+}
+
+.nbs {
+  margin: 0px 0px !important;
+  padding: 15px 15px !important;
+}
+
+.nvls {
+  padding: 10px 10px !important;
+  margin: 6px 6px !important;
+}
